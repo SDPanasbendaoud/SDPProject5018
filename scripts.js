@@ -8,13 +8,14 @@ function login() {
         alert('Login Successful!');
         window.location.href = 'dashboard.html'; // Redirect to dashboard
         
-    }  if (username === 'Ahmed' && password === '12345') {
+   } if (username === 'Ahmed' && password === '12345') {
         alert('Login Successful!');
         window.location.href = 'dashboard.html'; // Redirect to dashboard
         
-    } if (username === 'Anas' && password === '12345') {
+   } if (username === 'Anas' && password === '12345') {
         alert('Login Successful!');
         window.location.href = 'dashboard.html'; // Redirect to dashboard
+
     } else {
         alert('Invalid credentials, please try again.');
     }
