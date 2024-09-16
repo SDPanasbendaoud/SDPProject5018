@@ -4,7 +4,15 @@ function login() {
     const password = document.getElementById('password').value;
 
     // Simple validation
-    if (username === 'admin' && password === 'password123') {
+    if (username === 'Arfan' && password === '12345') {
+        alert('Login Successful!');
+        window.location.href = 'dashboard.html'; // Redirect to dashboard
+        
+    if (username === 'Ahmed' && password === '12345') {
+        alert('Login Successful!');
+        window.location.href = 'dashboard.html'; // Redirect to dashboard
+        
+    if (username === 'Anas' && password === '12345') {
         alert('Login Successful!');
         window.location.href = 'dashboard.html'; // Redirect to dashboard
     } else {
@@ -15,5 +23,5 @@ function login() {
 // Logout function
 function logout() {
     alert('Logged out successfully.');
-    window.location.href = 'login.html'; // Redirect to login page
+    window.location.href = 'index.html'; // Redirect to login page
 }
