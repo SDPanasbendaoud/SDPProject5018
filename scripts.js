@@ -7,10 +7,12 @@ function login() {
     if (username === 'Arfan' && password === '12345') {
         window.location.href = 'dashboard.html'; // Redirect to dashboard
         
-   } if (username === 'Ahmed' && password === '12345') {
+   } 
+    else if (username === 'Ahmed' && password === '12345') {
         window.location.href = 'dashboard.html'; // Redirect to dashboard
         
-   } if (username === 'Anas' && password === '12345') {
+   } 
+    else if (username === 'Anas' && password === '12345') {
         window.location.href = 'dashboard.html'; // Redirect to dashboard
 
     } else {
